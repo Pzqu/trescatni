@@ -1,0 +1,80 @@
+.touch {
+  margin-bottom: 107px;
+}
+
+.touch__wrapper{
+  position: relative;
+}
+
+.touch-inner {
+  max-width: 735px;
+}
+
+.form {
+  padding-top: 73px;
+}
+
+.form__inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__input {
+  display: block;
+  max-width: 45%;
+  width: 332px;
+  background-color: #0000001f;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 0 15px 30px;
+}
+
+.form__massage {
+  display: block;
+  width: 100%;
+  margin: 43px 0;
+  background-color: #0000001f;
+  resize: none;
+  padding: 32px 53px;
+  border-radius: 8px;
+  border: none;
+}
+
+.form__submit {
+  display: block;
+  width: 100%;
+  background-color: #FF3B3B;
+  padding: 25px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.touch__contacts {
+  position: absolute;
+  right: -140px;
+  bottom: 0;
+  width: 580px;
+  background-color: black;
+}
+
+.touch__contacts, .touch__contacts-item {
+  color: #FFFFFF;
+  display: block;
+}
+
+.touch__contacts {
+  padding: 90px 0 90px 81px;
+}
+
+.touch__contacts-title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.touch__contacts-item {
+  margin-bottom: 27px;
+  line-height: 28px;
+  max-width: 399px;
+}
