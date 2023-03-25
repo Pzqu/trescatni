@@ -2,7 +2,7 @@
   margin-bottom: 107px;
 }
 
-.touch__wrapper{
+.touch__wrapper {
   position: relative;
 }
 
@@ -59,7 +59,8 @@
   background-color: black;
 }
 
-.touch__contacts, .touch__contacts-item {
+.touch__contacts,
+.touch__contacts-item {
   color: #FFFFFF;
   display: block;
 }

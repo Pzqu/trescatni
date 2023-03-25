@@ -1,11 +1,12 @@
-.provide{
+.provide {
   display: flex;
   padding-bottom: 100px;
   border-bottom: 1px solid #ECECEC;
   margin-bottom: 104px;
 }
 
-.provide-inner, .provide-advateges {
+.provide-inner,
+.provide-advateges {
   width: 50%;
 }
 
@@ -13,7 +14,7 @@
   padding-right: 110px;
 }
 
-.provide-inner__title{
+.provide-inner__title {
   text-transform: uppercase;
   font-family: 'OpenSans';
   font-size: 42px;
@@ -47,7 +48,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 52px 0;  
+  gap: 52px 0;
 }
 
 .provide-advateges__item {

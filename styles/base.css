@@ -1,6 +1,6 @@
-*{
+* {
   box-sizing: border-box;
-/*   font-family: 'Open Sans', sans-serif; */
+  /*   font-family: 'Open Sans', sans-serif; */
 }
 
 bodi {
@@ -37,5 +37,5 @@ button {
 .section-header__line {
   height: 3px;
   width: 134px;
-  background-color:#FF2D2D;
+  background-color: #FF2D2D;
 }

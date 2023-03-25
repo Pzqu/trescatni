@@ -1,4 +1,4 @@
-.features{
+.features {
   margin-bottom: 104px;
 }
 
@@ -7,7 +7,7 @@
   margin-bottom: 28px;
 }
 
-.features__description{
+.features__description {
   line-height: 28px;
   text-align: center;
   width: 540px;
@@ -25,7 +25,7 @@
   display: flex;
   justify-content: center;
   gap: 0 56px;
-  margin-bottom: 56px;  
+  margin-bottom: 56px;
 }
 
 .features__tabs-item {
