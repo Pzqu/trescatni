@@ -2,12 +2,13 @@
   margin-bottom: 107px;
 }
 
-.touch__wrapper {
+/* .touch__wrapper {
   position: relative;
-}
+} */
 
 .touch-inner {
   max-width: 735px;
+  width: 698px;
 }
 
 .form {
@@ -52,11 +53,13 @@
 }
 
 .touch__contacts {
-  position: absolute;
+/*   position: absolute;
   right: -140px;
-  bottom: 0;
-  width: 580px;
+  bottom: 0; */
+  width: 486px;
   background-color: black;
+  margin-left: 764px;
+  margin-top: -426px;
 }
 
 .touch__contacts,
@@ -66,7 +69,7 @@
 }
 
 .touch__contacts {
-  padding: 90px 0 90px 81px;
+  padding: 90px 0 124px 81px;
 }
 
 .touch__contacts-title {
