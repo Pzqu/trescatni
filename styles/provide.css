@@ -67,3 +67,61 @@
 .provide-advateges__descripcion {
   line-height: 28px;
 }
+
+@media screen and (max-width: 1280px) {
+  .provide {
+    padding: 0 20px;
+  }
+
+  .provide-inner {
+    padding-right: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .provide {
+    flex-direction: column;
+    margin-bottom: 32px;  
+  }
+
+  .provide-inner__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .provide-inner {
+    width: 100%;
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  .provide-inner__description {
+    margin-bottom: 30px;
+  }
+
+  .provide-advateges {
+    width: 100%;
+}
+
+  .provide-inner__button {
+    margin-bottom: 50px;
+  }
+
+  .provide-advateges__item {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .provide-inner__title {
+    font-size: 22px;
+    line-height: 31px;
+    margin-bottom: 20px;
+  }
+
+  .provide-advateges {
+    gap: 13px 0;
+}
+}

@@ -45,6 +45,7 @@
   width: 200px;
   height: 217px;
   background-color: #FF2D2D;
+  padding: 166px 1px 0px;
   cursor: pointer;
 }
 
@@ -60,8 +61,76 @@
   right: 0;
   font-size: 18px;
   text-align: center;
+  padding: 16px;
 /*   padding: 10px 0; */
   color: #FFFFFF;
   background-color: black;
   opacity: 0.5;
+}
+
+@media screen and (max-width: 1280px) {
+  .team {
+    padding: 0 20px;
+  }
+
+  .section-header__title {
+    text-align: center;
+  }
+
+  .section-header__description {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .section-header__line {
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .team-inner {
+  justify-content: center;
+}
+
+  .team-inner__previw {
+    flex-wrap: wrap;
+    width: 320px;
+    min-width: 300px;
+    min-height: 211px;
+    height: 467px;
+}
+
+  .team-inner__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  .team-inner__previews {
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .team {
+    margin-bottom: 34px;
+}
+
+  .team-inner {
+  flex-wrap: wrap;
+}
+
+  .team-inner__previw {
+    margin-bottom: 30px;
+}
+
+.team-inner__previews {
+  justify-content: center;
+}
+
+  .team-inner__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: initial;
+}
 }

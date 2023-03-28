@@ -9,6 +9,7 @@
 .touch-inner {
   max-width: 735px;
   width: 698px;
+/*   margin: 0px auto; */
 }
 
 .form {
@@ -62,7 +63,7 @@
   margin-top: -426px;
 }
 
-.touch__contacts,
+
 .touch__contacts-item {
   color: #FFFFFF;
   display: block;
@@ -81,4 +82,44 @@
   margin-bottom: 27px;
   line-height: 28px;
   max-width: 399px;
+}
+
+@media screen and (max-width: 1280px) {
+  .touch {
+
+    padding: 0 20px;
+  }
+
+  .touch__contacts {
+    margin: 28px auto;
+    width: 93%;
+    max-width: 458px;
+}
+
+
+  .section-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .touch-inner {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+  }  }
+
+@media screen and (max-width: 640px) {
+  .touch {
+    margin-bottom: 40px;    
+  }
+  .form {
+    padding-top: 22px;
+  }
+
+  .touch__contacts {
+    max-width: 572px;
+    padding: 44px 0 12px 44px;
+}
 }
