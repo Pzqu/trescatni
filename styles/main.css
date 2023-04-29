@@ -112,6 +112,18 @@ iframe {
     display: none;
   }
 
+  .navigacion__active {
+    display: block;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 28px;
+  }
+
+  .navigacion-list {
+    flex-direction: column;
+  }
+
   .header {
     width: 60px;
     height: 60px;
@@ -179,4 +191,24 @@ iframe {
     margin-top: 28px;
     margin-bottom: 8px;
   }
+}
+
+.burger_open {
+  background-color: transparent;
+}
+
+.burger_open::after, .burger_open::before {
+  top: 0;
+}
+
+.burger_open::after {
+  transform: rotate(45deg);
+}
+
+.burger_open::before {
+  transform: rotate(-45deg);
+}
+
+.burger_wrapper {
+  height: 100%;
 }
