@@ -121,5 +121,30 @@
   .touch__contacts {
     max-width: 572px;
     padding: 44px 0 12px 44px;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .form {
+    display: block;
+  }
+
+  .form__inputs {
+    display: block;
+    max-width: 100%;
+    width: 435px;
+  }
+
+  .form__input {
+    width: 100%;
+    max-width: 424px;
+    margin: 6px 0px;
+  }
+
+  .form__massage {
+    display: block;
+    width: 100%;
+    margin: 22px 0;
+    padding: 18px 25px;
 }
 }

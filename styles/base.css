@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  scroll-behavior: smooth; /* замедляет скорость прокрутки страницы */
+  scroll-behavior: smooth;
+  /* замедляет скорость прокрутки страницы */
   /*   font-family: 'Open Sans', sans-serif; */
 }
 
@@ -40,4 +41,3 @@ button {
   width: 134px;
   background-color: #FF2D2D;
 }
-

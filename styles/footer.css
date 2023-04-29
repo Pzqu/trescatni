@@ -19,8 +19,18 @@
   gap: 0 18px;
 }
 
+@media screen and (max-width: 1280px) {
+  .footer__meta {
+    margin-left: 55px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .social {
     gap: 8px;
+  }
+
+  .footer__meta {
+    margin-left: 14px;
   }
 }

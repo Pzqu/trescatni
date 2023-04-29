@@ -39,12 +39,21 @@
 
   .subscribe {
     padding: 49px;
+    margin: 20px 30px;
     margin-bottom: 32px;
   }
 
   .subscribe__form-sumbit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+    width: 100%;
   }
 
-
+  .subscribe__title {
+    font-size: 32px;
+    margin-bottom: 14px;
+    line-height: 1.2;
+  }
 }

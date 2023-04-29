@@ -81,11 +81,11 @@
 @media screen and (max-width: 768px) {
   .provide {
     flex-direction: column;
-    margin-bottom: 32px;  
+    margin-bottom: 32px;
   }
 
   .provide-inner__title {
-    font-size: 30px;
+    font-size: 42px;
     line-height: 40px;
     margin-bottom: 20px;
   }
@@ -102,7 +102,7 @@
 
   .provide-advateges {
     width: 100%;
-}
+  }
 
   .provide-inner__button {
     margin-bottom: 50px;
@@ -116,12 +116,18 @@
 
 @media screen and (max-width: 480px) {
   .provide-inner__title {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 31px;
+    margin-top: 58px;
     margin-bottom: 20px;
   }
 
   .provide-advateges {
     gap: 13px 0;
-}
+  }
+
+  .features__photes-item {
+    width: 272px;
+    height: 275px;
+  }
 }
