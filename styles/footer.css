@@ -23,10 +23,15 @@
   .footer__meta {
     margin-left: 55px;
   }
+
+  .social {
+ /*    margin-right: 20px; */
+  }
 }
 
 @media screen and (max-width: 640px) {
   .social {
+/*     margin-right: 5px; */
     gap: 8px;
   }
 
